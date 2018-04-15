@@ -1,0 +1,53 @@
+.demo-ribbon {
+  width: 100%;
+  background-color: #3e51b5;
+}
+body{
+  background-color: #e9eaed;
+}
+.demo-header{
+  height: 20vh;
+  width: 60vw;
+  margin: 0 auto;
+  padding-top: 2vh;
+  background-color: #3e51b5;
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+}
+.demo-header h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.demo-content {
+  background-color: white;
+  height: 20vh;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: -7vh;
+}
+
+
+.demo-content h3 {
+  margin-top: 48px;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.left-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-link{
+  display: flex;
+  justify-content:  flex-end;
+  margin-bottom: 8vh;
+}
+.header-link div{
+  margin-left: 10px;
+}
+
