@@ -21,8 +21,9 @@ body{
 }
 
 .demo-content {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  height: 20vh;
   width: 60vw;
   margin: 0 auto;
   margin-top: -7vh;
@@ -49,5 +50,15 @@ body{
 }
 .header-link div{
   margin-left: 10px;
+}
+.content-picture{
+  width: 10%;
+}
+.content-body{
+  width: 90%;
+}
+
+.content-body img {
+  margin:10px 0 10px;
 }
 
