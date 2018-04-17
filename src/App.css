@@ -23,10 +23,10 @@ body{
 .demo-content {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
-  width: 60vw;
-  margin: 0 auto;
-  margin-top: -7vh;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 8px;
+
 }
 
 
@@ -54,11 +54,21 @@ body{
 .content-picture{
   width: 10%;
 }
+
 .content-body{
   width: 90%;
 }
-
+.content-picture img{
+  border-radius: 8px;
+}
 .content-body img {
   margin:10px 0 10px;
+}
+.content{
+  background-color: white;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: -7vh;
+  border-radius: 8px;
 }
 

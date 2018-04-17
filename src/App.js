@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
-import Blog from './components/Blog';
+import BlogContainer from './components/BlogContainer';
 import './App.css';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
                         </div>
                     </div>
                 </div>
-                <Blog />
+                <BlogContainer />
             </div>
 
         );
