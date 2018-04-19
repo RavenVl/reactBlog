@@ -71,4 +71,8 @@ body{
   margin-top: -7vh;
   border-radius: 8px;
 }
+.btn a{
+  color: antiquewhite;
+  text-decoration: none;
+}
 
